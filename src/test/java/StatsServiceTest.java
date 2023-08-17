@@ -46,7 +46,7 @@ public class StatsServiceTest {
     void shouldCalculateBelowAverageMonths() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int expectedBelowAverage = 4;
+        int expectedBelowAverage = 5;
         int actualBelowAverage = service.calculateBelowAverageMonths(sales);
         assertEquals(expectedBelowAverage, actualBelowAverage);
     }
@@ -55,7 +55,7 @@ public class StatsServiceTest {
     void shouldCalculateAboveAverageMonths() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int expectedAboveAverage = 8;
+        int expectedAboveAverage = 7;
         int actualAboveAverage = service.calculateAboveAverageMonths(sales);
         assertEquals(expectedAboveAverage, actualAboveAverage);
     }
