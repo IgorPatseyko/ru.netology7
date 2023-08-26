@@ -1,4 +1,4 @@
-package ru.netology.stats;
+package ru.netology.vacation;
 
 public class VacationPlanner {
     public int calculateVacationMonths(int income, int expenses, int threshold) {

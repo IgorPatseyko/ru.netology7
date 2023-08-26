@@ -1,7 +1,7 @@
 package tests;
 
 import org.junit.jupiter.api.Test;
-import ru.netology.stats.VacationPlanner;
+import ru.netology.vacation.VacationPlanner;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
