@@ -1,6 +1,7 @@
-package ru.netology.stats;
+package tests;
 
 import org.junit.jupiter.api.Test;
+import ru.netology.stats.StatsService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
