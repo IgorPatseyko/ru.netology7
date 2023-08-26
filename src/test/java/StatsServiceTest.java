@@ -55,7 +55,7 @@ public class StatsServiceTest {
     void shouldCalculateAboveAverageMonths() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int expectedAboveAverage = 7;
+        int expectedAboveAverage = 5;
         int actualAboveAverage = service.calculateAboveAverageMonths(sales);
         assertEquals(expectedAboveAverage, actualAboveAverage);
     }

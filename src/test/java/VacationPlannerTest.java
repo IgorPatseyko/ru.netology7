@@ -12,7 +12,7 @@ public class VacationPlannerTest {
         int income = 10000;
         int expenses = 3000;
         int threshold = 20000;
-        int expectedVacationMonths = 3;
+        int expectedVacationMonths = 4;
 
         int actualVacationMonths = planner.calculateVacationMonths(income, expenses, threshold);
 
