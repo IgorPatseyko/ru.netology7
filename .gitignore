@@ -38,9 +38,9 @@ build/
 .DS_Store
 
 # Игнорирование файлов и папок IDE
-/.idea/
+.idea/
 *.iml
 
 # Игнорирование скомпилированных файлов
-/target/
+target/
 out/
